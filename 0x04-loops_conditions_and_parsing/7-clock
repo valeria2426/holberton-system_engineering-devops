@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script is print the line "Holberton School" 10 times
+hours=0
+while [[ $hours -le 12 ]];
+  do
+    echo "Hour: $hours"
+    hours=$((hours+1))
+    minutes=1
+    while [[ $minutes -lt 60 ]];
+      do
+        echo "$minutes"
+        minutes=$((minutes+1))
+      done
+  done
